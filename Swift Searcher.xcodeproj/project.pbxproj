@@ -12,6 +12,7 @@
 		6F864DAF20C1E59C00D82D61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F864DAD20C1E59C00D82D61 /* Main.storyboard */; };
 		6F864DB120C1E59F00D82D61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F864DB020C1E59F00D82D61 /* Assets.xcassets */; };
 		6F864DB420C1E59F00D82D61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F864DB220C1E59F00D82D61 /* LaunchScreen.storyboard */; };
+		6F864DBC20C1E5BE00D82D61 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6F864DBB20C1E5BE00D82D61 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		6F864DB020C1E59F00D82D61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F864DB320C1E59F00D82D61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F864DB520C1E59F00D82D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F864DBB20C1E5BE00D82D61 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		6F864D9D20C1E59C00D82D61 = {
 			isa = PBXGroup;
 			children = (
+				6F864DBB20C1E5BE00D82D61 /* README.md */,
 				6F864DA820C1E59C00D82D61 /* Swift Searcher */,
 				6F864DA720C1E59C00D82D61 /* Products */,
 			);
@@ -124,6 +127,7 @@
 			files = (
 				6F864DB420C1E59F00D82D61 /* LaunchScreen.storyboard in Resources */,
 				6F864DB120C1E59F00D82D61 /* Assets.xcassets in Resources */,
+				6F864DBC20C1E5BE00D82D61 /* README.md in Resources */,
 				6F864DAF20C1E59C00D82D61 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,7 +290,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.forrestwparker.Swift-Searcher";
+				PRODUCT_BUNDLE_IDENTIFIER = com.forrestwparker.asdf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -303,7 +307,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.forrestwparker.Swift-Searcher";
+				PRODUCT_BUNDLE_IDENTIFIER = com.forrestwparker.asdf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
